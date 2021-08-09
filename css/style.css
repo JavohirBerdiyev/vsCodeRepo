@@ -1,3 +1,57 @@
 body {
-  background-color: aqua;
+  background-color: #E5E5E5;
+}
+
+header {
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-around;
+}
+
+.activ a {
+  background-color: #A3C1EF;
+  color: #fff;
+}
+
+button {
+  background-color: #A3C1EF;
+  color: #fff;
+}
+
+.icon-bar li a i {
+  color: #A3C1EF;
+}
+
+h2 {
+  color: #163561;
+}
+
+h2 span {
+  color: #FBB400;
+}
+
+p {
+  color: #153461;
+}
+
+.btn-link {
+  background-color: #A3C1EF;
+  color: #fff;
+}
+
+.servis-item {
+  background-color: #99BAED;
+}
+
+.servis-content .servis-item h3,
+.servis-content .servis-item p {
+  color: #fff;
+}
+
+.servis-content h3 {
+  color: #163561;
+}
+
+.servis-content p {
+  color: #153461;
 }
