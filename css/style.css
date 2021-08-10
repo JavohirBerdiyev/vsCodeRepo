@@ -1,15 +1,20 @@
 body {
-  background-color: #E5E5E5;
+  background-color: #fff;
   font-family: 'Catamaran', sans-serif;
+  overflow-x: hidden;
 }
 
 header {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 ul {
   list-style: none;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 a {
@@ -54,15 +59,26 @@ button {
   line-height: 37px;
 }
 
+.hero {
+  display: flex;
+}
+
 .hero .title {
   width: 576px;
 }
 
-
-
 .btn-link {
   background-color: #A3C1EF;
   color: #fff;
+}
+
+.history {
+  display: flex;
+}
+
+.servis-list {
+  display: flex;
+  flex-flow: nowrap row;
 }
 
 .servis-item.activ {
@@ -79,6 +95,8 @@ button {
   font-weight: 700;
   line-height: 52px;
 }
+
+
 
 .servis-content h3 {
   color: #163561;
