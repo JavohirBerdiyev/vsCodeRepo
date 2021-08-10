@@ -1,11 +1,24 @@
 body {
   background-color: #E5E5E5;
+  font-family: 'Catamaran', sans-serif;
 }
 
 header {
-  background-color: #ccc;
   display: flex;
   justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav a {
+  font-weight: 500;
+  font-size: 25px;
 }
 
 .activ a {
@@ -19,33 +32,52 @@ button {
 }
 
 .icon-bar li a i {
+  font-size: 42px;
   color: #A3C1EF;
 }
 
-h2 {
+.title {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 100px;
   color: #163561;
+  font-weight: 700;
 }
 
-h2 span {
+.title span {
   color: #FBB400;
 }
 
-p {
+.des {
+  font-size: 25px;
   color: #153461;
+  line-height: 37px;
 }
+
+.hero .title {
+  width: 576px;
+}
+
+
 
 .btn-link {
   background-color: #A3C1EF;
   color: #fff;
 }
 
-.servis-item {
+.servis-item.activ {
   background-color: #99BAED;
 }
 
-.servis-content .servis-item h3,
-.servis-content .servis-item p {
+.servis-item.activ h3,
+.servis-item.activ p {
   color: #fff;
+}
+
+.servis-item h3 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
 .servis-content h3 {
@@ -54,4 +86,14 @@ p {
 
 .servis-content p {
   color: #153461;
+}
+
+.btn-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  display: inline-block;
+  margin-bottom: 15px;
 }
